@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/news_setting_title">
+
+        <EditTextPreference
+            android:defaultValue="@string/settings_search_default"
+            android:inputType="text"
+            android:key="@string/settings_search_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/settings_search_label" />
+
+        <ListPreference
+            android:defaultValue="@string/settings_order_by_default"
+            android:entries="@array/settings_order_by_labels"
+            android:entryValues="@array/settings_order_by_values"
+            android:key="@string/settings_order_by_key"
+            android:title="@string/settings_order_by_label" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

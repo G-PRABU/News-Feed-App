@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">News2</string>
+    <string name="no_internet_connection">No internet connection, please check your mobile data.</string>
+    <string name="no_data_fond">No News updates available, please reload the app or check after some time...</string>
+    <string name="list_author">-  By</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">relevance</string>
+
+    <string name="order_by_relevance_label">Relevance</string>
+    <string name="order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="order_by_newest_label">Newest</string>
+    <string name="order_by_newest_value" translatable="false">newest</string>
+
+    <string name="settings_search_label">Search</string>
+    <string name="settings_search_key" translatable="false">search</string>
+    <string name="settings_search_default" translatable="false">sports</string>
+
+    <string name="news_setting_title">GENERAL SETTINGS</string>
+</resources>
